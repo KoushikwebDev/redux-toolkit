@@ -12,7 +12,7 @@ export const fetchProduct = createAsyncThunk("fetchProduct", async () => {
   return response.data;
 });
 
-// configure store
+// create slice
 export const fetchProductSlice = createSlice({
   name: "fetchProduct",
   initialState,
